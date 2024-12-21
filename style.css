@@ -1,0 +1,387 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: 100vh;
+	width: 100%;
+}
+body .heading{	
+	position: sticky;
+}
+body .heading h2{
+	background-color: rgb(155, 108, 108);
+	color:white ;
+	background-image: url(NEW/4545909.jpg);
+	background-position: center;
+	background-size:cover;
+	background-repeat: no-repeat;
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font: bold;
+	font-size: 30px;
+}
+header{
+position: sticky;
+top: 0;
+bottom: 0;
+z-index: 2;
+
+}
+body:hover ,header{
+	position: sticky;
+}
+header nav {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;	
+	background: rgb(20, 18, 18);
+}
+header nav .part1{
+	display: flex;
+	color: white;
+	cursor: pointer;
+	gap: 20px;
+	width: 100%;
+}
+nav .part1 img{
+	margin-left: 10px;
+	opacity: .8;
+}
+header nav label {
+display:flex; 
+}
+@media only screen and (min-width:600px){
+header nav label{
+	display: none;
+}}
+nav .part1 ul {
+list-style: none;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 25px;
+font-weight: lighter;
+}
+@media screen and (max-width:600px) {
+	nav .part1 ul li{
+		display:none;
+	}}
+nav .part1 ul li:hover{
+	background-color: blue;
+	width: 76px;
+	height: 70%;
+	display: flex;
+	align-items: center;
+}
+nav .part1 ul  .get{
+	display: none;
+}
+@media only screen and (min-width:60rem) {
+nav .part1 ul .get{
+	display: flex
+	;width: 100px;
+   ;
+  }}
+nav .part2{
+		display: flex;
+	color: white;
+	}
+	.part2 ul {
+		display:flex;
+		gap: 20px;
+		list-style-type: none;
+align-items: center;
+margin-right: 60px;
+display: none;	
+		}
+		.part2 button{
+			display: flex;
+			height: 40px;
+			width: 100px;
+			justify-content: center;
+			align-items: center;
+			position:relative;
+			top: 5px;
+			right: 20px;
+			border-radius: 20px;
+			cursor: pointer;
+		}
+		.part2 .btn1 button{
+			position:relative;
+			left: 6px;
+			z-index: 1;
+			background-color: rgb(0, 255, 0);}
+		.part2 .btn1 button:hover{
+			opacity: .9;
+			outline: 0;
+		}
+		.part2 .btn2 button:hover{
+			background-color: rgb(9, 255, 0);
+		}
+.nav-links{
+			width: 100%;
+			height: 5vh;
+display: grid;
+	justify-content:flex-start;
+			background-color: rgb(34, 29, 29);
+			color: white;			
+			cursor: pointer;
+		}
+		.nav-links ul li:hover{
+			background-color: rgb(0, 0, 0);
+			width: 100%;
+			height:5vh;
+			display: flex;
+			align-items: center;
+		}
+		.nav-links ul{
+			display: flex;
+			align-items: center;
+			gap: 30px;			overflow: hidden;
+			list-style: none;
+		} 
+ .container .start{
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	align-items:center;
+	width: 100%;
+	height: 85vh;
+	border-bottom-right-radius: 200px;
+	flex-direction: column;
+	background-color: rgb(26, 33, 34);
+}
+.start h2{
+padding-bottom: 20px;
+	font-size: 3rem;
+	color: white;
+text-shadow: 2px 2px 1px  red;
+}
+.start{
+	position: relative;
+}.start p{
+	font-size: 24px;
+	color:white ;
+	text-shadow:-7px -1px 10px rgb(0, 0, 0);
+padding-bottom: 20px;
+}		
+.start input{
+	width: 400px;
+	height:40px;
+	border-radius: 50px;
+	font-size: 16px;
+	text-indent: 2px;padding-left: 20px;
+	outline: 0;
+	border: none;	 
+}
+ .start .in i{
+	position:relative;
+bottom: 50%;
+left: 79%;
+background-color: green;
+width: 90px;
+height:44px;
+border-radius: 0px 60px 60px 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+} 
+.start i:hover{
+	opacity: .9;
+}
+ .start a{
+font-size: 18px;
+color: white;
+text-decoration: underline;
+text-shadow: 2px 2px 2px rgb(98, 0, 255);
+} 
+ .start a:hover{
+	color: rgb(0, 255, 0);
+} 
+.content{
+	background-color: rgba(255, 143, 7, 0.432);
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	text-align: center;
+}
+.content .off{
+	display: flex;
+	
+	border: 2px solid red;
+	padding: 30px;
+}
+.content .off img{
+	height: 100%;
+	width: 100%;
+	padding-left: 20px;
+}
+/* @media only screen and(max-width:200px){
+	.content img{
+		display: none;
+
+	} */
+.content h2{
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+.content p{
+	margin-top: 10px;
+	color: black;
+	font-weight: bolder;
+}
+.content main {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 100px;
+padding-top: 30px;
+}
+.content button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	transform: translate(-50%,50%);
+	margin-top: 20px;	
+	width: 200px;
+	height: 40px;
+	border-radius: 50px;
+	display: flex;
+	cursor: pointer;
+}
+.content main button.no1{
+	background-color: green;
+	color: rgb(255, 255, 255);
+	font-size: larger;
+	opacity: .9;
+	outline: none;
+	border: 0;
+}
+.content main button.no1:hover{
+	opacity: 1;
+}
+.content main button.no2{
+		background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	font-size: larger;
+	opacity: .9;
+	outline: none;
+	border: 0;
+}.content main button.no2:hover{
+	opacity: 1;
+}
+.content main button.no3{
+			background-color:rgb(221, 69, 95);
+	color: rgb(0, 0, 0);
+	font-size: larger;
+	opacity: .9;
+	outline: none;
+	border: 0;
+
+}
+.content main button.no3:hover{
+	opacity: 1;
+}
+.content main button.no4{
+				background-color:rgba(136, 168, 18, 0.781);
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	font-size: larger;
+	opacity: .9;
+	outline: none;
+	border: 0;
+}
+.content main button.no4:hover{
+	opacity: 1;
+}
+.content main  button.no5{
+					background-color:rgba(0, 0, 0, 0.781);
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	font-size: larger;
+	opacity: .9;
+	outline: none;
+	border: 0;
+}
+.content main button.no5:hover{
+opacity: 1;
+}
+.sup-contant{
+	background-color: rgb(56, 56, 70);
+	color: white;
+	width: 100%;
+}
+.sup-contant ul{
+	 display: flex;
+flex-wrap: wrap;
+	gap: 20px; 	
+padding: 10px;
+		list-style: none;
+		background-color: rgb(202, 177, 177);		
+		padding-left: 4%;
+}
+.sup-contant ul li{
+	background-color: rgb(38, 0, 255);
+	display: flex;
+	align-items: center;
+position: relative;
+justify-content: center;
+	border-radius: 4px;
+	width: 30%;
+	height: 60px;	
+
+}
+footer{
+	background-color: rgb(29, 27, 27);
+	width: 100%;
+}
+footer .foot-head{
+	color: white;
+	text-align: center;
+padding: 20px;
+}
+footer .foot-head h4{
+	cursor: pointer;
+}
+footer .side{
+	display: flex;
+justify-content: center;
+margin-top: 20px;
+	gap: 20px;
+	cursor: pointer;
+	padding: 10px;
+	border-bottom: 1px solid red;
+}
+.button2{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.button2 input{
+ display: flex;
+	justify-content: center;
+	width: 300px;
+	height: 40px;
+	margin-top: 20px;
+}
+footer .copy {
+	color: rgb(255, 255, 255);
+	margin-top: 20px;
+	width: 100%;
+	text-align: center;
+	display: grid;
+	place-items: center;
+}
+footer .copy p{
+	margin-top: 30px;
+	width: 90%;
+}
